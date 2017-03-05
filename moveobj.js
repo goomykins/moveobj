@@ -68,7 +68,7 @@ eval("chip="+chipname);
       chip.vy=-vmin-vmax*Math.random();
      }
 
-document.getElementById(chip.named).style.left=chip.xx+"px";
+document.getElementById(chip.named).style.center=chip.xx+"px";
 document.getElementById(chip.named).style.top=chip.yy+"px";
 
 
